@@ -1,6 +1,4 @@
------
-Works
------
+# Works
 
 ```bash
 sudo pip3 install main_package/
@@ -13,9 +11,7 @@ python3 -c "import mainpackage.ext.someplugin; print(mainpackage.ext.someplugin.
 # -> plugin
 ```
 
------
-Fails
------
+# Fails
 
 ```bash
 sudo pip3 install -e main_package/
@@ -31,4 +27,3 @@ python3 -c "import mainpackage.ext.someplugin; print(mainpackage.ext.someplugin.
 #   File "<string>", line 1, in <module>
 # ModuleNotFoundError: No module named 'mainpackage.ext.someplugin'
 ```
-
